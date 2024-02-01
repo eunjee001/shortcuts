@@ -2,11 +2,10 @@
 <shortcuts xmlns:tools="http://schemas.android.com/tools"
     xmlns:android="http://schemas.android.com/apk/res/android">
     <shortcut
-        android:shortcutId = "compose"
-        android:enable ="ture"
+        android:shortcutId="manage_shortcuts"
         android:icon="@drawable/ic_launcher_foreground"
-        android:shortcutShortLabel = "@string/shortcutShortLabel"
-        android:shortcutLongLabel = "@string/shortcutLongLabel"
+        android:shortcutShortLabel="@string/shortcutShortLabel"
+        android:shortcutLongLabel="@string/shortcutShortLabel"
         android:shortcutDisabledMessage="@string/shortcutDisabledMessage"
         tools:targetApi="34">
         <intent
@@ -15,6 +14,6 @@
             android:targetPackage="com.kkyoungs.shortcuts"
             />
         <categories android:name="android.shortcut.conversation"/>
-        <capability-binding android:key="actions.intent.CREATE_MESSAGE"/>
+
     </shortcut>
 </shortcuts>
